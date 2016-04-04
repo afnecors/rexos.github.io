@@ -25,6 +25,7 @@
   }
   footer {
     text-align: right;
+    padding: 0 0 .67em 0;
   }
   .center{
     text-align: center;
@@ -36,6 +37,9 @@
   }
   .text-monospace {
     font-family: monospace;
+  }
+  .list {
+    display: block;
   }
   @media (max-width: 600px) {
     .wrapper {
@@ -85,52 +89,80 @@
             <li>
               <a href="schedule.pdf" class="text-monospace">Master's Courses Timetable</a>
             </li>
-            <h4>Algebraic Cryptography</h4>
-            <li>
-              <a href="http://modular.math.washington.edu/simuw06/ch6.pdf" class="text-monospace" target="_blank">Elliptic Curves in number theory and cryptography</a>
-            </li>
-            <h4>Finite Fields and Symmetric Cryptography</h4>
-            <li>
-              <a href="finite.pdf" class="text-monospace">A brief summary of Boolean functions (and vectorial) for crypto</a>
-            </li>
-            <li>
-              <a href="http://www.hpl.hp.com/techreports/1999/HPL-1999-12R1.pdf" class="text-monospace">Imprimitive translation based block ciphers</a>
-            </li>
-            <h4>Coding Theory</h4>
-            <li>
-              <a href="http://barcode-coder.com/en/datamatrix-specification-104.html" class="text-monospace" target="_blank">Data Matrix (Reed-Solomon codes) Specification</a>
-            </li>
-            <li>
-              <a href="http://www.bcri.ucc.ie/FILES/PUBS/BCRI_44.pdf" class="text-monospace" target="_blank">General locator polynomials for binary cyclic codes</a>
-            </li>
-            <h4>Advanced Coding Theory and Cryptography</h4>
-            <li>
-              <a href="Adv.pdf" class="text-monospace">Set of proofs of theorems used in the course</a>[<a href="Adv.tex" class="text-monospace">.tex</a>]
-            </li>
-            <h4>Analisi Matematica III</h4>
-            <li>
-              <a href="Diario.pdf" class="text-monospace">Notes for the course of Calculus (Work in progress)</a>[<a href="Diario.tex" class="text-monospace">.tex</a>]
-            </li>
-            <h4>Discrete Fourier Analysis</h4>
-            <li>
-              <a href="https://github.com/rexos/Discrete-Fourier-Analysis" class="text-monospace">Magma exercises of the course</a>
-            </li>
-            <h4>Bachelor Degree</h4>
-            <li>
-              <a href="Alex-Pellegrini-Bachelor-Thesis.pdf" class="text-monospace">Bachelor's Thesis</a>
-              <ul>
-                <li>
-                  presentation (<a href="presentation.pdf" class="text-monospace">PDF</a>) (<a href="presentation.ppt" class="text-monospace">PPT</a>)
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a href="https://pypi.python.org/pypi/wordlist/" class="text-monospace" target="_blank">Wordlist (python module)</a>
-              <ul>
-                <li><a href="http://github.com/rexos/wordlist" class="text-monospace" target="_blank">repository</a></li>
-              </ul>
-            </li>
           </ul>
+          <div class="list">
+            <h4>Algebraic Cryptography</h4>
+            <ul>
+              <li>
+                <a href="http://modular.math.washington.edu/simuw06/ch6.pdf" class="text-monospace" target="_blank">Elliptic Curves in number theory and cryptography</a>
+              </li>
+            </ul>
+          </div>
+          <div class="list">
+            <h4>Finite Fields and Symmetric Cryptography</h4>
+            <ul>
+              <li>
+                <a href="finite.pdf" class="text-monospace">A brief summary of Boolean functions (and vectorial) for crypto</a>
+              </li>
+              <li>
+                <a href="http://www.hpl.hp.com/techreports/1999/HPL-1999-12R1.pdf" class="text-monospace">Imprimitive translation based block ciphers</a>
+              </li>
+            </ul>
+          </div>
+          <div class="list">
+            <h4>Coding Theory</h4>
+            <ul>
+              <li>
+                <a href="http://barcode-coder.com/en/datamatrix-specification-104.html" class="text-monospace" target="_blank">Data Matrix (Reed-Solomon codes) Specification</a>
+              </li>
+              <li>
+                <a href="http://www.bcri.ucc.ie/FILES/PUBS/BCRI_44.pdf" class="text-monospace" target="_blank">General locator polynomials for binary cyclic codes</a>
+              </li>
+            </ul>
+          </div>
+          <div class="list">
+            <h4>Advanced Coding Theory and Cryptography</h4>
+            <ul>
+              <li>
+                <a href="Adv.pdf" class="text-monospace">Set of proofs of theorems used in the course</a>[<a href="Adv.tex" class="text-monospace">.tex</a>]
+              </li>
+            </ul>
+          </div>
+          <div class="list">  
+            <h4>Analisi Matematica III</h4>
+            <ul>
+              <li>
+                <a href="Diario.pdf" class="text-monospace">Notes for the course of Calculus (Work in progress)</a>[<a href="Diario.tex" class="text-monospace">.tex</a>]
+              </li>
+            </ul>
+          </div>
+          <div class="list">
+            <h4>Discrete Fourier Analysis</h4>
+            <ul>
+              <li>
+                <a href="https://github.com/rexos/Discrete-Fourier-Analysis" class="text-monospace">Magma exercises of the course</a>
+              </li>
+            </ul>
+          </div>
+          <div class="list">
+            <h4>Bachelor Degree</h4>
+            <ul>
+              <li>
+                <a href="Alex-Pellegrini-Bachelor-Thesis.pdf" class="text-monospace">Bachelor's Thesis</a>
+                <ul>
+                  <li>
+                    presentation (<a href="presentation.pdf" class="text-monospace">PDF</a>) (<a href="presentation.ppt" class="text-monospace">PPT</a>)
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="https://pypi.python.org/pypi/wordlist/" class="text-monospace" target="_blank">Wordlist (python module)</a>
+                <ul>
+                  <li><a href="http://github.com/rexos/wordlist" class="text-monospace" target="_blank">repository</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </li>
         <li>
           I was an exchange student at <a href="http://www.dtu.dk/english" target="_blank">Technical University of Denmark (DTU)</a> during the Fall period 2013.
